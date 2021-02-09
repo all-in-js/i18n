@@ -1,0 +1,36 @@
+{
+  "name": "@open-fe/i18n-core",
+  "version": "1.0.0",
+  "description": "i18n core package",
+  "author": "famanoder",
+  "homepage": "https://github.com/famanoder/i18n.git",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/famanoder/i18n.git"
+  },
+  "scripts": {
+    "build": "webpack --progress",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.merge": "^4.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

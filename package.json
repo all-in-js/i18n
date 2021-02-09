@@ -1,0 +1,19 @@
+{
+  "name": "@open-fe/i18n",
+  "devDependencies": {
+    "lerna": "^3.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/famanoder/i18n.git"
+  },
+  "scripts": {
+    "dev:site": "cd site && npm run start",
+    "docs:publish": "cd docs && npm run build && npm run docs:publish"
+  },
+  "version": "1.0.0",
+  "npmClient": "yarn",
+  "workspaces": [
+    "packages/*"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@open-fe/i18n-cli",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "bin": {
+    "i18n": "bin/i18n-cli.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@iuv-tools/utils": "^1.0.0-beta.2",
+    "fast-glob": "^3.1.1",
+    "node-xlsx": "^0.15.0",
+    "pretty-js": "^0.2.1",
+    "to-single-quotes": "^3.0.0",
+    "yargs-parser": "^16.1.0"
+  }
+}

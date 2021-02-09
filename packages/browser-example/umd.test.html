@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/@vue/reactivity@3.0.2/dist/reactivity.global.js"></script>
+  <script src="../core/dist/i8n-core.min.js"></script>
+</head>
+<body>
+<div class="test"></div>
+<button onclick="i18n.setLocale('en-US')">change</button>
+<script>
+  const i18nCore = new I18nCore({
+    pathGap: '/',
+    locale: 'zh-CN',
+    messages: {
+      'en-US': {
+        name: 'bob',
+        greet: {
+          key: 'hello, {name}!'
+        }
+      },
+      'zh-CN': {
+        name: '鲍勃',
+        greet: {
+          key: '你好, {name}!'
+        }
+      }
+    }
+  });
+  const { reactive, effect } = VueReactivity;
+  const i18n = reactive(i18nCore);
+
+  const write = function() {
+    const test = document.querySelector('.test');
+    test.textContent = i18n.message.name;
+  }
+  
+  effect(write);
+
+</script>
+</body>
+</html>
