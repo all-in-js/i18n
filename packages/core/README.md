@@ -1,19 +1,19 @@
-## @open-fe/i18n-core
+## @all-in-js/i18n-core
 
 > 框架无关的国际化处理方案
 
 ### Install
 
 ```bash
-npm i @open-fe/i18n-core
+npm i @all-in-js/i18n-core
 // or
-yarn add @open-fe/i18n-core
+yarn add @all-in-js/i18n-core
 ```
 
 ### Usage
 
 ```js
-import I18n from '@open-fe/i18n-core';
+import I18n from '@all-in-js/i18n-core';
 
 const i18n = new I18n(option);
 // do sth...

@@ -1,5 +1,5 @@
 const { reactive } = require('vue');
-const I18nCore = require('@open-fe/i18n-core');
+const I18nCore = require('@all-in-js/i18n-core');
 
 const I18nCorePlugin = {
   install(app, option) {

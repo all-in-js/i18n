@@ -1,9 +1,9 @@
 {
-  "name": "@open-fe/vue-i18n",
+  "name": "@all-in-js/vue-i18n",
   "version": "1.0.0",
   "description": "i18n for vue",
   "author": "famanoder",
-  "homepage": "https://github.com/famanoder/i18n.git",
+  "homepage": "https://github.com/all-in-js/i18n",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -15,14 +15,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/famanoder/i18n.git"
+    "url": "https://github.com/all-in-js/i18n"
   },
   "scripts": {
     "build": "webpack --progress",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@open-fe/i18n-core": "^1.0.1"
+    "@all-in-js/i18n-core": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

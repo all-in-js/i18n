@@ -1,5 +1,5 @@
 const pretty = require('pretty-js');
-const { spinner, log } = require('@iuv-tools/utils');
+const { spinner, log } = require('@all-in-js/utils');
 
 function fmtJson(code, option) {
   return pretty(code, {

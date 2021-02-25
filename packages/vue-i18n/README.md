@@ -1,13 +1,13 @@
-## @open-fe/vue-i18n
+## @all-in-js/vue-i18n
 
-> 基于 `@open-fe/i18n-core` 和 `Vue` 的国际化处理方案
+> 基于 `@all-in-js/i18n-core` 和 `Vue` 的国际化处理方案
 
 ### Install
 
 ```bash
-npm i @open-fe/vue-i18n
+npm i @all-in-js/vue-i18n
 // or
-yarn add @open-fe/vue-i18n
+yarn add @all-in-js/vue-i18n
 ```
 
 ### Usage
@@ -15,7 +15,7 @@ yarn add @open-fe/vue-i18n
 main.js
 ```js
 import Vue from 'vue';
-import VueI18n from '@open-fe/vue-i18n';
+import VueI18n from '@all-in-js/vue-i18n';
 
 Vue.use(VueI18n, {
   locale: 'zh-CN',
@@ -37,7 +37,7 @@ template
 </div>
 ```
 
-> 详细参数参考 [@open-fe/i18n-core](https://github.com/famanoder/i18n.git);
+> 详细参数参考 [@all-in-js/i18n-core](https://github.com/all-in-js/i18n);
 
 ### 指令
 

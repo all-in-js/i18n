@@ -1,4 +1,4 @@
-const { fetch, resolvePkg, spinner, joinCWD, log } = require('@iuv-tools/utils');
+const { fetch, resolvePkg, spinner, joinCWD, log } = require('@all-in-js/utils');
 const collectMessages = require('./collect-messages');
 const writeMessages = require('./write-messages');
 const { catchFetchErr } = require('./util');

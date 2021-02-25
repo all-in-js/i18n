@@ -1,4 +1,4 @@
-const { fetch, fse, log, resolvePkg, resolveCWD, spinner } = require('@iuv-tools/utils');
+const { fetch, fse, log, resolvePkg, resolveCWD, spinner } = require('@all-in-js/utils');
 const { catchFetchErr } = require('./util');
 const pull = require('./pull');
 

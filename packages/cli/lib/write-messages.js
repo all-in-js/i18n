@@ -1,4 +1,4 @@
-const { fse, astCtrl } = require('@iuv-tools/utils');
+const { fse, astCtrl } = require('@all-in-js/utils');
 const single = require('to-single-quotes');
 
 function createMessagesObjectExpression(t, messages = {}) {

@@ -1,5 +1,5 @@
 const glob = require('fast-glob');
-const { resolve, cwd, astCtrl, fse, log, spinner, color } = require('@iuv-tools/utils');
+const { resolve, cwd, astCtrl, fse, log, spinner, color } = require('@all-in-js/utils');
 const { findMessagesVisitorCreater } = require('./util');
 const writeLangMessages = require('./write-messages');
 

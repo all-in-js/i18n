@@ -1,5 +1,5 @@
 const xlsx = require('node-xlsx').default;
-const { fse, fetch, resolvePkg, joinCWD, spinner, log } = require('@iuv-tools/utils');
+const { fse, fetch, resolvePkg, joinCWD, spinner, log } = require('@all-in-js/utils');
 const { catchFetchErr } = require('./util');
 const namesMap = require('./names-map');
 

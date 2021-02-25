@@ -1,9 +1,9 @@
 {
-  "name": "@open-fe/i18n-core",
+  "name": "@all-in-js/i18n-core",
   "version": "1.0.0",
   "description": "i18n core package",
   "author": "famanoder",
-  "homepage": "https://github.com/famanoder/i18n.git",
+  "homepage": "https://github.com/all-in-js/i18n",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/famanoder/i18n.git"
+    "url": "https://github.com/all-in-js/i18n"
   },
   "scripts": {
     "build": "webpack --progress",

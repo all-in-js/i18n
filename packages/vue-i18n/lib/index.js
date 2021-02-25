@@ -1,4 +1,4 @@
-const I18n = require('@open-fe/i18n-core');
+const I18n = require('@all-in-js/i18n-core');
 
 function install(Vue, option) {
   if (install.installed) return;

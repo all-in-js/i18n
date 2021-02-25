@@ -9,7 +9,7 @@
 ### 安装
 
 ```js
-npm i -g @open-fe/i18n-cli
+npm i -g @all-in-js/i18n-cli
 ```
 
 ### 使用
