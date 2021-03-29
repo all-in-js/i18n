@@ -214,7 +214,7 @@ class I18n {
   }
   t(path, param) {
     let message = this.message;
-    let result = '';
+    let result = path;
     if (message && Object.keys(message).length) {
       const keys = path.toString().split(this.pathGap);
       for (const key of keys) {
